@@ -494,7 +494,7 @@
 	</div>
 
 	<!-- MODALS END-->
-
+	
 
 	<!-- JavaScript -->
 	<script src="scripts/jquery-1.8.2.min.js"></script>
@@ -510,6 +510,23 @@
 	<script src="scripts/jquery.stellar.min.js"></script>
 	<script src="scripts/retina.min.js"></script>
 	<script src="scripts/custom.js"></script>
+	<script>
+		$("#contact_form").submit(function(e) {
+			e.preventDefault(); // avoid to execute the actual submit of the form.
+			var form = $(this);
+			var url = form.attr('action');
+			$.ajax({
+				type: "POST",
+				url: url,
+				data: form.serialize(), // serializes the form's elements.
+				success: function(data)
+				{
+					alert(data); // show response from the php script.
+				}
+				});
+
+			});
+	</script>
 
 	<!--[if lte IE 9]>
 	<script src="scripts/respond.min.js"></script>

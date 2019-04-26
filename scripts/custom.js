@@ -255,7 +255,7 @@ $(document).ready(function(){
 	
     $('#contact_form').submit(function() {
         // submit the form
-        e.preventDefault();
+         e.preventDefault();
         if($(this).valid()){
             $("#contact_form").ajaxForm({url: 'contact.php', type: 'post'})
             $('#contact_submit').button('loading'); 
