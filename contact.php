@@ -51,6 +51,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 	}
 }
 else{
-	echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+	echo "Message has not been sent";
 }
 ?>
