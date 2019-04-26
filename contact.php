@@ -1,4 +1,5 @@
 <?php
+
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
 use PHPMailer\PHPMailer\PHPMailer;
@@ -40,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 		$body = "\nName: {$_POST['name']}\nEmail: {$_POST['email']}\n\n\n{$_POST['message']}\n\n";
 		$mail->isHTML(true);                                  // Set email format to HTML
 		$mail->Subject = 'Here is the subject';
-		$mail->Body    = $body;
+		$mail->Body    = 'hello from vr';
 		$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 	
 		$mail->send();
@@ -48,5 +49,8 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 	} catch (Exception $e) {
 		echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 	}
+}
+else{
+	echo "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
 }
 ?>
