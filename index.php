@@ -531,7 +531,7 @@ else{
 			<div class="modal-content">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h3 class="modal-title">Contact</h3>
-				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" role="form" id="contact_form" method="POST">
+				<form action="<?php echo $_SERVER['PHP_SELF']; ?>"  method="POST">
 					<div class="form-group">
 						<input type="text" class="form-control" id="contact_name" placeholder="Full name" name="name">
 					</div>
@@ -543,7 +543,7 @@ else{
 						<textarea class="form-control" rows="3" placeholder="Your message or question"
 							id="contact_message" name="message"></textarea>
 					</div>
-					<button type="submit" value="Submit" id="contact_submit" data-loading-text="&bull;&bull;&bull;"> <i
+					<button type="submit" value="Submit" > <i
 							class="icon icon-paper-plane"></i></button>
 				</form>
 			</div>
