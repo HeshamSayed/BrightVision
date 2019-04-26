@@ -47,10 +47,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 		$mail->send();
 		echo 'Message has been sent';
 	} catch (Exception $e) {
-		echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+		//echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 	}
 }
 else{
-	echo "Message has not been sent";
+	//echo "Message has not been sent";
 }
 ?>
