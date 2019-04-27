@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 		//Server settings
 		$mail->SMTPDebug = 0;                                       // Enable verbose debug output
 		$mail->isSMTP();                                            // Set mailer to use SMTP
-		$mail->Host       = 'smtp.brightvision-tech.com';           //'smtp.gmail.com';  // Specify main and backup SMTP servers
+		$mail->Host       = 'smtp.ipage.com';           //'smtp.gmail.com';  // Specify main and backup SMTP servers
 		$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 		$mail->Username   = 'test@brightvision-tech.com';                //'a.abdelfatah.100@gmail.com';                     // SMTP username
 		$mail->Password   = 'Test123456';               //'bxxpyhkudxpsxllt';                               // SMTP password
