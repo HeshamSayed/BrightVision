@@ -513,19 +513,34 @@
 	<script>
 		$("#contact_form").submit(function(e) {
 			e.preventDefault(); // avoid to execute the actual submit of the form.
-			var form = $(this);
-			var url = form.attr('action');
-			$.ajax({
-				type: "POST",
-				url: url,
-				data: form.serialize(), // serializes the form's elements.
-				success: function(data)
-				{
-					//alert(data); // show response from the php script.
-				}
+			if($(this).valid()){
+				var form = $(this);
+				var url = form.attr('action');
+				$.ajax({
+					type: "POST",
+					url: url,
+					data: form.serialize(), // serializes the form's elements.
+					success: function() {
+						$('#contact_submit').button('reset');
+						$('#modalContact').modal('hide');
+ 
+						//Use modal popups to display messages
+						$('#modalMessage .modal-title').html('<i class="icon icon-envelope-open"></i>Well done!<br>Your message has been successfully sent!');
+						$('#modalMessage').modal('show');
+					},
+					error: function() {
+						$('#contact_submit').button('reset');
+						$('#modalContact').modal('hide');
+ 
+						//Use modal popups to display messages
+						$('#modalMessage .modal-title').html('<i class="icon icon-ban"></i>Oops!<br>Something went wrong!');
+						$('#modalMessage').modal('show');
+					}
 				});
-
-			});
+			} else {
+        $('#contact_submit').button('reset')
+			}
+		});
 	</script>
 
 	<!--[if lte IE 9]>
