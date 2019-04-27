@@ -476,7 +476,7 @@
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 					<h3 class="modal-title">Contact</h3>
-					<form action="./contact1.php" role="form" id="contact_form">
+					<form action="./contact1.php" role="form" id="contact_form1">
 						<div class="form-group">
 							<input type="text" class="form-control" id="contact_name" placeholder="Full name" name="name">
 						</div>
@@ -488,7 +488,7 @@
 							<textarea class="form-control" rows="3" placeholder="Your message or question"
 								id="contact_message" name="message"></textarea>
 						</div>
-						<button type="submit" id="contact_submit" data-loading-text="&bull;&bull;&bull;"> <i
+						<button type="submit" id="contact_submit1" data-loading-text="&bull;&bull;&bull;"> <i
 								class="icon icon-paper-plane"></i></button>
 					</form>
 				</div>
@@ -556,6 +556,43 @@
 				$('#contact_submit').button('reset')
 			}
 		});
+
+		//---------------------------
+		$("#contact_form1").submit(function (e) {
+			e.preventDefault(); // avoid to execute the actual submit of the form.
+			if ($(this).valid()) {
+				var form = $(this);
+				var url = form.attr('action');
+				$.ajax({
+					type: "POST",
+					url: url,
+					data: form.serialize(), // serializes the form's elements.
+					success: function () {
+						$('#contact_submit1').button('reset');
+						$('#modalContact1').modal('hide');
+
+						//Use modal popups to display messages
+						$('#modalMessage .modal-title').html(
+							'<i class="icon icon-envelope-open"></i>Well done!<br>Your message has been successfully sent!'
+							);
+						$('#modalMessage').modal('show');
+					},
+					error: function () {
+						$('#contact_submit1').button('reset');
+						$('#modalContact1').modal('hide');
+
+						//Use modal popups to display messages
+						$('#modalMessage .modal-title').html(
+							'<i class="icon icon-ban"></i>Oops!<br>Something went wrong!');
+						$('#modalMessage').modal('show');
+					}
+				});
+			} else {
+				$('#contact_submit1').button('reset')
+			}
+		});
+
+
 	</script>
 
 
