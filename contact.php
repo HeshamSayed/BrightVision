@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 		//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 	
 		// Content
-		$body = "\nName: {$_POST['name']}\nEmail: {$_POST['email']}\n\n\n{$_POST['message']}\n\n";
+		$body = "\nName: {$_POST['name']}<br>\nEmail: {$_POST['email']}\n\n\n<br><br>{$_POST['message']}\n\n";
 		$mail->isHTML(true);                                  // Set email format to HTML
 		$mail->Subject = "Message From {$_POST['email']}";
 		$mail->Body    = $body;
