@@ -1411,28 +1411,28 @@ button {
 									CONTACT FORM
 ----------------------------------------------------------------------------------------*/
 
-#contact_form {
+#contact_form, #contact_form1 {
 	border-top: 1px solid #eee;
 }
 
-#contact_form .form-group {
+#contact_form .form-group, #contact_form1 .form-group {
 	margin: 0;
 }
 
-#contact_form label {
+#contact_form label, #contact_form1 label {
 	display: block;
 	font-size: 14px;
 	font-weight: normal;
 	position: relative;
 }
 
-#contact_form label.error {
+#contact_form label.error, #contact_form1, label.error {
 	background: #ce0b0b;
 	color: #fff;
 	padding: 5px;
 }
 
-#contact_form label.error:after {
+#contact_form label.error:after, #contact_form1 label.error:after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -1446,11 +1446,11 @@ button {
 	border-color: transparent transparent #ce0b0b transparent;
 }
 
-#contact_form label.valid {
+#contact_form label.valid, #contact_form1 label.valid {
 	display: none !important;
 }
 
-#contact_form .form-control {
+#contact_form .form-control, #contact_form1 .form-control {
 	text-align: center;
 	border-bottom: 1px solid #eee;
 	line-height: 25px;
@@ -1461,15 +1461,15 @@ textarea.form-control {
 	resize: vertical;
 }
 
-#modalContact .modal-content {
+#modalContact .modal-content, #modalContact1 .modal-content {
 	padding: 40px 0px;
 }
 
-#modalContact .modal-title {
+#modalContact .modal-title, #modalContact1 .modal-title {
 	margin: 0 0 40px 0;
 }
 
-button#contact_submit {
+button#contact_submit, button#contact_submit1 {
 	background: none;
 	margin-top: 35px;
 	font-size: 22px;
@@ -1487,7 +1487,7 @@ button#contact_submit {
 	transition: all 0.4s ease-in-out;
 }
 
-button#contact_submit:hover {
+button#contact_submit:hover, button#contact_submit1:hover {
 	border: 2px solid #00aeff;
 }
 
