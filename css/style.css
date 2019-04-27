@@ -1426,7 +1426,7 @@ button {
 	position: relative;
 }
 
-#contact_form label.error, #contact_form1, label.error {
+#contact_form label.error, #contact_form1 label.error {
 	background: #ce0b0b;
 	color: #fff;
 	padding: 5px;
