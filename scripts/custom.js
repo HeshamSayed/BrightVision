@@ -246,7 +246,39 @@ $(document).ready(function(){
         }
     });   
 
-
+    $('#contact_form1').validate({
+        onfocusout: false,
+        onkeyup: false,
+        rules: {
+            name: "required",
+            message: "required",
+            email: {
+                required: true,
+                email: true
+            }
+        },
+        errorPlacement: function(error, element) {
+            error.insertAfter(element);
+        },
+        messages: {
+            name: "What's your name?",
+            message: "Type your message",
+            email: {
+                required: "What's your email?",
+                email: "Please, enter a valid email"
+            }
+        },
+					
+        highlight: function(element) {
+            $(element)
+            .text('').addClass('error')
+        },                    
+					
+        success: function(element) {
+            element
+            .text('').addClass('valid')
+        }
+    });
 
 
 //------------------------------------------------------------------------------------
