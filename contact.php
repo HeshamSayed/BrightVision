@@ -18,12 +18,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 		//Server settings
 		$mail->SMTPDebug = 0;                                       // Enable verbose debug output
 		$mail->isSMTP();                                            // Set mailer to use SMTP
-		$mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+		$mail->Host       = 'smtp.brightvision-tech.com';           //'smtp.gmail.com';  // Specify main and backup SMTP servers
 		$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-		$mail->Username   = 'a.abdelfatah.100@gmail.com';                     // SMTP username
-		$mail->Password   = 'bxxpyhkudxpsxllt';                               // SMTP password
+		$mail->Username   = 'adel3dart88526';                //'a.abdelfatah.100@gmail.com';                     // SMTP username
+		$mail->Password   = 'BrightVision2030@';               //'bxxpyhkudxpsxllt';                               // SMTP password
 		$mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-		$mail->Port       = 587;                                    // TCP port to connect to
+		$mail->Port       = 465;                                    // TCP port to connect to
 	
 		//Recipients
 		$mail->setFrom($_POST['email'], $_POST['email']);
