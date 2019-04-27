@@ -23,20 +23,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 		$mail->Username   = 'test@brightvision-tech.com';                //'a.abdelfatah.100@gmail.com';                     // SMTP username
 		$mail->Password   = 'Test123456';               //'bxxpyhkudxpsxllt';                               // SMTP password
 		$mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-		$mail->Port       = 465;                                    // TCP port to connect to
+		$mail->Port       = 587;                                    // TCP port to connect to
 	
 		//Recipients
 		$mail->setFrom($_POST['email'], $_POST['email']);
 	
-		//$mail->addAddress('', 'Joe User');     // Add a recipient
 		$mail->addAddress('test@brightvision-tech.com');               // Name is optional
-		//$mail->addReplyTo('info@example.com', 'Information');
-		//$mail->addCC('cc@example.com');
-		//$mail->addBCC('bcc@example.com');
-	
-		// Attachments
-		//$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
-		//$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 	
 		// Content
 		$body = "\nName: {$_POST['name']}<br><br>Sender: {$_POST['email']}<br><br>Message:  {$_POST['message']}\n\n";
