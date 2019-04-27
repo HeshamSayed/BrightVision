@@ -54,11 +54,16 @@
 						class="icon-bar"></span> </button>
 				<div class="collapse navbar-collapse navMenuCollapse">
 					<ul class="nav">
-						<li><a href="#features">Features</a> </li>
-						<li><a href="#benefits1">EXPERIENCES</a></li>
-						<li><a href="#screenshots">Portofolio</a></li>
-						<li><a href="#testimonials">Experience</a></li>
-						<li><a href="#news">News</a></li>
+						
+				
+						<li><a href="#news">الاخبار</a></li>
+						<li><a href="">التدريب والتوظيف</a></li>
+						<li><a style="cursor: pointer;" data-toggle="modal" data-target="#modalContact">اتصل بنا</a></li>
+						<li><a href="#testimonials">فريق العمل</a></li>
+						<li><a href="#screenshots">اعمالنا</a></li>
+						<li><a href="#benefits1">القسم الفنى</a></li>
+						<li><a href="#features">القسم التقنى</a></li>
+						<li><a href="#full-intro">الرئيسيه</a></li>
 					</ul>
 				</div>
 			</div>
@@ -303,36 +308,6 @@
 		<!-- SCREENSHOTS END -->
 
 
-
-		<!-- FACTS BEGIN -->
-		<section id="facts">
-			<div class="container">
-				<ul class="facts-list">
-					<li class="wow bounceIn">
-						<i class="icon icon-cloud-download"></i>
-						<h3 class="wow">284</h3>
-						<h4>Downloads</h4>
-					</li>
-					<li class="wow bounceIn" data-wow-delay="0.4s">
-						<i class="icon icon-star"></i>
-						<h3 class="wow">135</h3>
-						<h4>Top Rates</h4>
-					</li>
-					<li class="wow bounceIn" data-wow-delay="0.8s">
-						<i class="icon icon-like"></i>
-						<h3 class="wow">77</h3>
-						<h4>Likes</h4>
-					</li>
-					<li class="wow bounceIn" data-wow-delay="1.2s">
-						<i class="icon icon-clock"></i>
-						<h3 class="wow">741</h3>
-						<h4>Hours Safe</h4>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<!-- FACTS END -->
-
 		<!-- TESTIMONIALS BEGIN -->
 		<section id="testimonials" class="bg-color3">
 			<div class="container-fluid">
@@ -378,43 +353,35 @@
 		<section id="news">
 			<div class="container-fluid">
 				<div class="title">
-					<h2>App's News</h2>
-					<p>Here you can find all interesting facts about this app:<br>the last updates, sales, latest things
-						and the developers’ stories.</p>
+					<h2>اخبار الشركه</h2>
+					<p>المدوام هي تلك اللعبة التراثية الشهيرة والممتعة. اسم أصيل نابع من ثقافتنا، يعبر عن هويتنا، ويدعم رسالتنا</p>
 				</div>
 				<ul class="news-list">
 					<li class="wow fadeInUp">
-						<h3><a href="#">Look for the latest update in coming days.</a></h3>
-						<div class="news-info">
-							<div class="author"><i class="icon icon-user"></i>John Doe</div>
-							<div class="date"><i class="icon icon-clock"></i>16.07.2014</div>
-							<div class="comments"><i class="icon icon-bubble"></i>7 Comments</div>
+						<h3><a href="#">رؤيتنا</a></h3>
+						<div class="news-info">			
+							<p>
+								.نؤمن بأن لا مستحيل أمام الإبداع .. فخيال الأمس نجعله واقعا اليوم
+							</p>			
 						</div>
 					</li>
 					<li class="wow fadeInUp">
-						<h3><a href="#">The meeting of developers of cross-platform apps.</a></h3>
+						<h3><a href="#">هدفنا</a></h3>
 						<div class="news-info">
-							<div class="author"><i class="icon icon-user"></i>John Doe</div>
-							<div class="date"><i class="icon icon-clock"></i>16.07.2014</div>
-							<div class="comments"><i class="icon icon-bubble"></i>7 Comments</div>
+							<p>
+									.أن نكون نافذتك الأولى لتحقيق أحلامك بحلول متكاملة ورؤية مستقبلية واضحة  للتطوير المستمر في مختلف المجالات
+							</p>
 						</div>
 					</li>
 					<li class="wow fadeInUp">
-						<h3><a href="#">The new functional sketches.</a></h3>
+						<h3><a href="#">الشعار</a></h3>
 						<div class="news-info">
-							<div class="author"><i class="icon icon-user"></i>John Doe</div>
-							<div class="date"><i class="icon icon-clock"></i>16.07.2014</div>
-							<div class="comments"><i class="icon icon-bubble"></i>7 Comments</div>
+							<p>هويتنا المرئية تمثل مزيجاً مثالياً من الابتكار، التطوير، والاتصال اللامحدود</p>
 						</div>
 					</li>
 					<li class="wow fadeInUp">
-						<h3><a href="#">Resolving the issue with synchronization in old
-								version.</a></h3>
-						<div class="news-info">
-							<div class="author"><i class="icon icon-user"></i>John Doe</div>
-							<div class="date"><i class="icon icon-clock"></i>16.07.2014</div>
-							<div class="comments"><i class="icon icon-bubble"></i>7 Comments</div>
-						</div>
+						<h3><a href="#"><img src="./images/sitelogo.png" alt="Your logo"
+							height="100" width="230" /></a></h3>
 					</li>
 				</ul>
 			</div>
