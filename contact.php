@@ -40,17 +40,17 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 		// Content
 		$body = "\nName: {$_POST['name']}\nEmail: {$_POST['email']}\n\n\n{$_POST['message']}\n\n";
 		$mail->isHTML(true);                                  // Set email format to HTML
-		$mail->Subject = 'Here is the subject';
-		$mail->Body    = 'hello from vr';
+		$mail->Subject = "Message From {$_POST['email']}";
+		$mail->Body    = $body;
 		$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 	
 		$mail->send();
-		echo 'Message has been sent';
+		echo true;
 	} catch (Exception $e) {
-		//echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+		echo false;
 	}
 }
 else{
-	//echo "Message has not been sent";
+	echo false;
 }
 ?>
