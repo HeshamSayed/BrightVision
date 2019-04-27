@@ -57,7 +57,7 @@
 						
 				
 						<li><a href="#news">الاخبار</a></li>
-						<li><a href="">التدريب والتوظيف</a></li>
+						<li><a style="cursor: pointer;" data-toggle="modal" data-target="#modalContact1">التدريب والتوظيف</a></li>
 						<li><a style="cursor: pointer;" data-toggle="modal" data-target="#modalContact">اتصل بنا</a></li>
 						<li><a href="#testimonials">فريق العمل</a></li>
 						<li><a href="#screenshots">اعمالنا</a></li>
@@ -286,21 +286,34 @@
 			<div class="container-fluid wow fadeIn">
 				<h2>Screenshots</h2>
 				<div id="screenshots-slider" class="owl-carousel">
-					<a class="item" href="./images/screen1.jpg" title="App Screen 1"><img src="images/screen1.jpg"
+					<a class="item" href="./images/screen.jpg" title="App Screen 1">
+						<!--<img src="images/intro_screen.png" alt="screen1" width="250" height="444" />-->
+						<!--<video class="item" width="400" controls poster="./images/intro_screen.png">
+							<source src="./video/video_bg.mp4" type="video/mp4">
+							<source src="./video/video_bg.ogv" type="video/ogv">
+							Your browser does not support HTML5 video.
+						</video>-->
+					</a>
+					<a class="item" href="./images/intro_screen.png" title="App Screen 2">
+						<img src="images/intro_screen.png" alt="screen1" width="250" height="444" />
+					</a>
+					<a class="item" href="./images/intro_screen.png" title="App Screen 3">
+						<img src="images/intro_screen.png"
 							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/screen1.jpg" title="App Screen 2"><img src="images/screen1.jpg"
+					<a class="item" href="./images/intro_screen.png" title="App Screen 4">
+						<img src="images/intro_screen.png"
 							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/screen1.jpg" title="App Screen 3"><img src="images/screen1.jpg"
+					<a class="item" href="./images/intro_screen.png" title="App Screen 5">
+						<img src="images/intro_screen.png"
 							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/screen1.jpg" title="App Screen 4"><img src="images/screen1.jpg"
+					<a class="item" href="./images/intro_screen.png" title="App Screen 6">
+						<img src="images/intro_screen.png"
 							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/screen1.jpg" title="App Screen 5"><img src="images/screen1.jpg"
+					<a class="item" href="./images/intro_screen.png" title="App Screen 7">
+						<img src="images/intro_screen.png"
 							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/screen1.jpg" title="App Screen 6"><img src="images/screen1.jpg"
-							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/screen1.jpg" title="App Screen 7"><img src="images/screen1.jpg"
-							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/screen1.jpg" title="App Screen 8"><img src="images/screen1.jpg"
+					<a class="item" href="./images/intro_screen.png" title="App Screen 8">
+						<img src="images/intro_screen.png"
 							alt="screen1" width="250" height="444" /></a>
 				</div>
 			</div>
@@ -354,7 +367,7 @@
 			<div class="container-fluid">
 				<div class="title">
 					<h2>اخبار الشركه</h2>
-					<p>المدوام هي تلك اللعبة التراثية الشهيرة والممتعة. اسم أصيل نابع من ثقافتنا، يعبر عن هويتنا، ويدعم رسالتنا</p>
+					<p style="font-size: 1.7em;">المدوام هي تلك اللعبة التراثية الشهيرة والممتعة. اسم أصيل نابع من ثقافتنا، يعبر عن هويتنا، ويدعم رسالتنا</p>
 				</div>
 				<ul class="news-list">
 					<li class="wow fadeInUp">
@@ -456,6 +469,40 @@
 			</div>
 		</div>
 	</div>
+
+	<!-- jobs model -->
+	<div class="modal fade" id="modalContact1" tabindex="-1" role="dialog" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h3 class="modal-title">Contact</h3>
+					<form action="./contact1.php" role="form" id="contact_form">
+						<div class="form-group">
+							<input type="text" class="form-control" id="contact_name" placeholder="Full name" name="name">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control" id="contact_email" placeholder="Email Address"
+								name="email">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control" rows="3" placeholder="Your message or question"
+								id="contact_message" name="message"></textarea>
+						</div>
+						<button type="submit" id="contact_submit" data-loading-text="&bull;&bull;&bull;"> <i
+								class="icon icon-paper-plane"></i></button>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="modalMessage" tabindex="-1" role="dialog" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h3 class="modal-title"></h3>
+					</div>
+				</div>
+			</div>
 
 	<!-- MODALS END-->
 

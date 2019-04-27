@@ -3,7 +3,10 @@
 
 /*--------------------- FONT (OPEN SANS) IMPORT FROM GOOGLE FONTS ----------------------*/
 
-
+@font-face {
+	font-family: "Swissra Font";
+	src: url(../fonts/Swissra\ Ultra\ Light_0.otf) format("truetype");
+}
 
 
 /*----------------------------------------------------------------------------------------
@@ -11,7 +14,7 @@
 -----------------------------------------------------------------------------------------*/
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Swissra Font';
 	font-size: 16px;
 	font-weight: 300;
 	color: #777;
@@ -2506,6 +2509,7 @@ ul.pricing-table a.buy:hover .icon-basket:before {
 
 .news-info {
 	margin: 0 0 30px 0;
+	font-size: 1.7em;
 }
 
 #news .news-info {
