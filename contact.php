@@ -20,15 +20,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 		$mail->isSMTP();                                            // Set mailer to use SMTP
 		$mail->Host       = 'smtp.ipage.com';           //'smtp.gmail.com';  // Specify main and backup SMTP servers
 		$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-		$mail->Username   = 'test@brightvision-tech.com';                //'a.abdelfatah.100@gmail.com';                     // SMTP username
-		$mail->Password   = 'Test123456';               //'bxxpyhkudxpsxllt';                               // SMTP password
+		$mail->Username   = 'eng.adel@brightvision-tech.com';                //'a.abdelfatah.100@gmail.com';                     // SMTP username
+		$mail->Password   = 'Adel3Dmax@@';               //'bxxpyhkudxpsxllt';                               // SMTP password
 		$mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
 		$mail->Port       = 587;                                    // TCP port to connect to
 	
 		//Recipients
 		$mail->setFrom($_POST['email'], $_POST['name']);
 	
-		$mail->addAddress('test@brightvision-tech.com');               // Name is optional
+		$mail->addAddress('eng.adel@brightvision-tech.com');               // Name is optional
 	
 		// Content
 		$body = "\nName: {$_POST['name']}<br><br>Sender: {$_POST['email']}<br><br>Message:  {$_POST['message']}\n\n";
