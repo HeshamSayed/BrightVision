@@ -3,18 +3,19 @@
 
 /*--------------------- FONT (OPEN SANS) IMPORT FROM GOOGLE FONTS ----------------------*/
 
+
 @font-face {
 	font-family: "Swissra Font";
 	src: url(../fonts/Swissra\ Ultra\ Light_0.otf) format("truetype");
 }
-
 
 /*----------------------------------------------------------------------------------------
 										COMMON STYLES
 -----------------------------------------------------------------------------------------*/
 
 body {
-	/*font-family: 'Swissra Font';*/
+	font-family: 'Open Sans', sans-serif;
+    /*font-family: 'Swissra Font';*/
 	font-size: 16px;
 	font-weight: 300;
 	color: #777;
@@ -66,22 +67,17 @@ h4 {
 }
 
 .product {
+
 	/* background-color: #00aced;
 	height: 100%;*/
 	/* width: 21.33333%; */
 	/* margin: 1.2%; */
-	background-color: #007bb6;
-	height: 50px;
+	background-color: #00aeff;
 	align-content: center; 
 	border: 3px solid white;
 }
 
-.innerProduct {
-	/* justify-content: center;
-	margin-left: 30%;
-	height: 75%;
-	margin-top: 2%; */
-}
+
 
 h1.sep,
 h2.sep,
@@ -98,6 +94,13 @@ h4 strong {
 	text-transform: none;
 }
 
+
+
+.changeDis{
+	position: absolute;
+	top: 1;
+	left: ;
+}
 
 ul {
 	margin: 0;
@@ -518,21 +521,21 @@ button {
 .item-list-right li .icon {
 	font-size: 32px;
 	position: absolute;
-	right: 0;
-	top: 0;
+	right: -37px;
+	top: -18px;
 }
 
 .item-list-left li {
 	padding: 0 0px 20px 60px;
 	position: relative;
-	text-align: left;
+	text-align: right;
 }
 
 .item-list-left li .icon {
 	font-size: 32px;
 	position: absolute;
-	left: 0;
-	top: 0;
+	right: 266px;
+	top: -9px;
 }
 
 .item-list-right h3,
@@ -549,7 +552,7 @@ button {
 }
 
 .item-list-big li .icon {
-	font-size: 48px;
+	width: 35%;
 }
 
 .item-list-right li:last-child,
@@ -2509,7 +2512,6 @@ ul.pricing-table a.buy:hover .icon-basket:before {
 
 .news-info {
 	margin: 0 0 30px 0;
-	font-size: 1.7em;
 }
 
 #news .news-info {

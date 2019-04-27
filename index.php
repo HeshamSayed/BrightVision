@@ -94,64 +94,84 @@
 
 
 
-		<!-- FEATURES BEGIN -->
-		<section id="features" class="img-block-3col">
-			<div class="container">
-				<div class="title">
-					<h2>Brilliant Features</h2>
-					<p>Here are several causes that make our template worth paying attention to</p>
+				<!-- FEATURES BEGIN -->
+	<section id="features" class="img-block-3col">
+		<div class="container">
+			<div class="title">
+				<h2>خدماتنا</h2>
+		
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<ul class="item-list-right item-list-big">
+						<li class="wow fadeInLeft">
+						
+
+							<img class="icon" src="images/icons/gaming.png" style="display:inline-block;" />
+							<h4>الواقع المعزز</h4>
+							<p>اضافه عناصر ومحتوى رقمى اضافى الى العالم الحقيقى</p>
+						</li>
+						<li class="wow fadeInLeft">
+								<img class="icon" src="images/icons/military.png"  style="display:inline-block;" />
+							<h4>استضافه المواقع والدعم الفنى</h4>
+							<p>نحن نهتم بموقع الويب الخاص بك حتى بعد انهاء العمل مباشرة</p>
+						</li>
+						<li class="wow fadeInLeft">
+							<img class="icon" src="images/icons/vrgears.png" style="display:inline-block;" />
+							<h4>تطوير المواقع الالكترونيه</h4>
+							<p>نحن نجمع بين افضل ممارسات المعرفه الرقميه مع خبرتنا فى تصميم المواقع</p>
+
+						</li>
+						<li class="wow fadeInLeft">
+								<img class="icon" src="images/icons/military.png"  style="display:inline-block;" />
+							<h4>استضافه المواقع والدعم الفنى</h4>
+							<p>نحن نهتم بموقع الويب الخاص بك حتى بعد انهاء العمل مباشرة</p>
+						</li>
+					</ul>
 				</div>
-				<div class="row">
-					<div class='col-xs-3 col-sm-3 product'>
-						<!-- <div class="innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
+				<div class="col-sm-4 col-sm-push-4">
+					<ul class="item-list-left item-list-big">
+						<li class="wow fadeInRight">
+								
 
-						</div> -->
-					</div>
-					<div class='col-xs-3 col-sm-3 product'>
-						<!-- <div class=" innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
 
-						</div> -->
-					</div>
-					<div class='col-xs-3 col-sm-3 product'>
-						<!-- <div class="innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
-						</div> -->
-					</div>
-					<div class='col-xs-3 col-sm-3 product'>
-						<!-- <div class="innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
+							<img class="icon" src="images/icons/healthcare.png"  style="display:inline-block;" />
+							<h4>الواقع الافتراضى</h4>
+							<p>تجسيد بيئه افتراضيه بالكامل مشابهة للحقيقه</p>
+						</li>
+						<li class="wow fadeInRight">
+								
 
-						</div> -->
-					</div>
+
+								<img class="icon" src="images/icons/healthcare.png"  style="display:inline-block;" />
+								<h4>الواقع الافتراضى</h4>
+								<p>تجسيد بيئه افتراضيه بالكامل مشابهة للحقيقه</p>
+							</li>
+						<li class="wow fadeInRight">
+						
+							<img class="icon" src="images/icons/reviewed-and-rated.png" style="display:inline-block;" />
+								<h4>تصميم المواقع الالكترونيه</h4>
+								<p>ان التصميم الجيد هو اساس عمل اى موقع انترنت ﻵنه يشكل عامل الجذب</p>
+						</li>
+						<li class="wow fadeInRight">
+						
+							<img class="icon" src="images/icons/education.png"  style="display:inline-block;" />
+								<h4>التسويق الالكترونى</h4>
+								<p>التسويق الالكترونى هو تسويق خدمه او منتج او موقع عبر الانترنت</p>
+						</li>
+					</ul>
 				</div>
-				<div class="row">
-					<div class='col-xs-3 col-sm-3 product'>
-						<!-- <div class="col-sm-4 innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
-
-						</div> -->
-					</div>
-					<div class='col-xs-3 col-sm-3 product'>
-						<!-- <div class="col-sm-4 innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
-						</div> -->
-					</div>
-					<div class='col-xs-3 col-sm-3 product'>
-						<!-- <div class="col-sm-4 innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
-						</div> -->
-					</div>
-					<div class='col-xs-3 col-sm-3 product'>
-						<!-- <div class="col-sm-4 innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
-						</div> -->
+				<div class="col-sm-4 col-sm-pull-4">
+					<div class="animation-box wow bounceIn">
+					 	<img class="highlight-left wow" src="images/light.png" height="192" width="48" alt="" />
+						<img class="highlight-right wow" src="images/light.png" height="192" width="48" alt="" />
+						<img class="screen" src="images/imgvr.png" alt="" height="581" width="300" />
 					</div>
 				</div>
 			</div>
-		</section>
-		<!-- FEATURES END -->
+		</div>
+	</section>
+	<!-- FEATURES END --> 
 
 
 
