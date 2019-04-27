@@ -79,8 +79,7 @@
 						</h1>
 					</div>
 					<div class="col-md-4 hidden-sm hidden-xs">
-						<img class="intro-screen wow bounceInUp" data-wow-delay="0.5s" src="images/intro_screen.png"
-							width="400" height="775" alt="" />
+
 					</div>
 				</div>
 			</div>
@@ -98,51 +97,51 @@
 					<p>Here are several causes that make our template worth paying attention to</p>
 				</div>
 				<div class="row">
-						<div class='col-lg-6 col-sm-4 product'>
-								<div class="col-sm-4 innerProduct">
-									<img src='images/VR_5-512.png' width="100px;" height="100">
-									
-								</div>
-							</div>
-					<div class='col-sm-4 product'>
-						<div class="col-sm-4 innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
-							
-						</div>
-					</div>
-					<div class='col-sm-4 product'>
-						<div class="col-sm-4 innerProduct">
-							<img src='images/VR_5-512.png' width="100px;" height="100">
-						</div>
-					</div>
-					<div class='col-sm-4 product'>
-						<div class="col-sm-4 innerProduct">
+					<div class='col-xs-3 col-sm-3 product'>
+						<!-- <div class="innerProduct">
 							<img src='images/VR_5-512.png' width="100px;" height="100">
 
-						</div>
+						</div> -->
+					</div>
+					<div class='col-xs-3 col-sm-3 product'>
+						<!-- <div class=" innerProduct">
+							<img src='images/VR_5-512.png' width="100px;" height="100">
+
+						</div> -->
+					</div>
+					<div class='col-xs-3 col-sm-3 product'>
+						<!-- <div class="innerProduct">
+							<img src='images/VR_5-512.png' width="100px;" height="100">
+						</div> -->
+					</div>
+					<div class='col-xs-3 col-sm-3 product'>
+						<!-- <div class="innerProduct">
+							<img src='images/VR_5-512.png' width="100px;" height="100">
+
+						</div> -->
 					</div>
 				</div>
 				<div class="row">
-						<div class='col-sm-4  product'>
-								<div class="col-sm-4 innerProduct">
-									<img src='images/VR_5-512.png' width="100px;" height="100">
-									
-								</div>
-							</div>
-					<div class='col-sm-4 product'>
-						<div class="col-sm-4 innerProduct">
+					<div class='col-xs-3 col-sm-3 product'>
+						<!-- <div class="col-sm-4 innerProduct">
 							<img src='images/VR_5-512.png' width="100px;" height="100">
-						</div>
+
+						</div> -->
 					</div>
-					<div class='col-sm-4 product'>
-						<div class="col-sm-4 innerProduct">
+					<div class='col-xs-3 col-sm-3 product'>
+						<!-- <div class="col-sm-4 innerProduct">
 							<img src='images/VR_5-512.png' width="100px;" height="100">
-						</div>
+						</div> -->
 					</div>
-					<div class='col-sm-4 product'>
-						<div class="col-sm-4 innerProduct">
+					<div class='col-xs-3 col-sm-3 product'>
+						<!-- <div class="col-sm-4 innerProduct">
 							<img src='images/VR_5-512.png' width="100px;" height="100">
-						</div>
+						</div> -->
+					</div>
+					<div class='col-xs-3 col-sm-3 product'>
+						<!-- <div class="col-sm-4 innerProduct">
+							<img src='images/VR_5-512.png' width="100px;" height="100">
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -159,7 +158,8 @@
 					<p>In our work we try to use only the most modern, convenient and interesting solutions.<br>We want
 						the template you downloaded look unique and new for such a long time as it is possible. </p>
 				</div>
-				<img class="screen wow bounceInUp" src="images/innovation_screen.png" height="387" width="800" alt="" />
+				<img class="screen wow bounceInUp" src="images/gear-vr_phoneplus_new_vr_img.png" height="387"
+					width="800" alt="" />
 			</div>
 			<div id="ray1" class="ray ray-horizontal"></div>
 			<div id="ray2" class="ray ray-horizontal"></div>
@@ -216,10 +216,8 @@
 								<img class="base wow" src="images/flare_base.png" alt="" />
 								<img class="shapes wow" src="images/flare_shapes.png" alt="" />
 							</div>
-							<img class="screen above" src="images/screen_couple_above.png" alt="" height="484"
-								width="250" />
-							<img class="screen beyond wow fadeInRight" data-wow-delay="0.5s"
-								src="images/screen_couple_beyond.png" alt="" height="407" width="210" />
+							<img class="screen above" src="images/gearside.png" alt="" height="300" width="430" />
+
 						</div>
 					</div>
 				</div>
@@ -254,10 +252,9 @@
 						<div class="screen-couple-left wow fadeInLeftBig">
 							<div class="fog fog-top wow"></div>
 							<div class="fog fog-bottom wow"></div>
-							<img class="screen above" src="images/screen_couple_above_v2.png" alt="" height="484"
-								width="250" />
-							<img class="screen beyond wow fadeInLeft" data-wow-delay="0.5s"
-								src="images/screen_couple_beyond_v2.png" alt="" height="407" width="210" />
+							<img class="screen above" src="images/" alt="" height="484" width="250" />
+							<img class="screen beyond wow fadeInLeft" data-wow-delay="0.5s" src="images/vc-1.png" alt=""
+								height="400" width="550" />
 						</div>
 					</div>
 				</div>
@@ -387,7 +384,7 @@
 				</div>
 				<ul class="news-list">
 					<li class="wow fadeInUp">
-						<h3><a href="single.html">Look for the latest update in coming days.</a></h3>
+						<h3><a href="#">Look for the latest update in coming days.</a></h3>
 						<div class="news-info">
 							<div class="author"><i class="icon icon-user"></i>John Doe</div>
 							<div class="date"><i class="icon icon-clock"></i>16.07.2014</div>
@@ -395,7 +392,7 @@
 						</div>
 					</li>
 					<li class="wow fadeInUp">
-						<h3><a href="single-no-sidebar.html">The meeting of developers of cross-platform apps.</a></h3>
+						<h3><a href="#">The meeting of developers of cross-platform apps.</a></h3>
 						<div class="news-info">
 							<div class="author"><i class="icon icon-user"></i>John Doe</div>
 							<div class="date"><i class="icon icon-clock"></i>16.07.2014</div>
@@ -403,7 +400,7 @@
 						</div>
 					</li>
 					<li class="wow fadeInUp">
-						<h3><a href="single.html">The new functional sketches.</a></h3>
+						<h3><a href="#">The new functional sketches.</a></h3>
 						<div class="news-info">
 							<div class="author"><i class="icon icon-user"></i>John Doe</div>
 							<div class="date"><i class="icon icon-clock"></i>16.07.2014</div>
@@ -411,7 +408,7 @@
 						</div>
 					</li>
 					<li class="wow fadeInUp">
-						<h3><a href="single-no-sidebar.html">Resolving the issue with synchronization in old
+						<h3><a href="#">Resolving the issue with synchronization in old
 								version.</a></h3>
 						<div class="news-info">
 							<div class="author"><i class="icon icon-user"></i>John Doe</div>
@@ -474,7 +471,7 @@
 			<div class="modal-content">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 				<h3 class="modal-title">Contact</h3>
-				<form action="contact.php" role="form" id="contact_form" method="POST">
+				<form action="./contact.php" role="form" id="contact_form">
 					<div class="form-group">
 						<input type="text" class="form-control" id="contact_name" placeholder="Full name" name="name">
 					</div>
@@ -486,7 +483,7 @@
 						<textarea class="form-control" rows="3" placeholder="Your message or question"
 							id="contact_message" name="message"></textarea>
 					</div>
-					<button type="submit" value="Submit" id="contact_submit" data-loading-text="&bull;&bull;&bull;"> <i
+					<button type="submit" id="contact_submit" data-loading-text="&bull;&bull;&bull;"> <i
 							class="icon icon-paper-plane"></i></button>
 				</form>
 			</div>
@@ -494,7 +491,7 @@
 	</div>
 
 	<!-- MODALS END-->
-	
+
 
 	<!-- JavaScript -->
 	<script src="scripts/jquery-1.8.2.min.js"></script>
@@ -510,38 +507,45 @@
 	<script src="scripts/jquery.stellar.min.js"></script>
 	<script src="scripts/retina.min.js"></script>
 	<script src="scripts/custom.js"></script>
+
 	<script>
-		$("#contact_form").submit(function(e) {
+		$("#contact_form").submit(function (e) {
 			e.preventDefault(); // avoid to execute the actual submit of the form.
-			if($(this).valid()){
+			if ($(this).valid()) {
 				var form = $(this);
 				var url = form.attr('action');
 				$.ajax({
 					type: "POST",
 					url: url,
 					data: form.serialize(), // serializes the form's elements.
-					success: function() {
+					success: function () {
 						$('#contact_submit').button('reset');
 						$('#modalContact').modal('hide');
- 
+
 						//Use modal popups to display messages
-						$('#modalMessage .modal-title').html('<i class="icon icon-envelope-open"></i>Well done!<br>Your message has been successfully sent!');
+						$('#modalMessage .modal-title').html(
+							'<i class="icon icon-envelope-open"></i>Well done!<br>Your message has been successfully sent!'
+							);
 						$('#modalMessage').modal('show');
 					},
-					error: function() {
+					error: function () {
 						$('#contact_submit').button('reset');
 						$('#modalContact').modal('hide');
- 
+
 						//Use modal popups to display messages
-						$('#modalMessage .modal-title').html('<i class="icon icon-ban"></i>Oops!<br>Something went wrong!');
+						$('#modalMessage .modal-title').html(
+							'<i class="icon icon-ban"></i>Oops!<br>Something went wrong!');
 						$('#modalMessage').modal('show');
 					}
 				});
 			} else {
-        $('#contact_submit').button('reset')
+				$('#contact_submit').button('reset')
 			}
 		});
 	</script>
+
+
+
 
 	<!--[if lte IE 9]>
 	<script src="scripts/respond.min.js"></script>

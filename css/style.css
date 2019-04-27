@@ -63,19 +63,21 @@ h4 {
 }
 
 .product {
-	background-color: #00aced;
-	height: 100%;
-	width: 21.33333%;
-	margin: 1.2%;
-	align-content: center;
-	border-left: 1px solid black;
+	/* background-color: #00aced;
+	height: 100%;*/
+	/* width: 21.33333%; */
+	/* margin: 1.2%; */
+	background-color: #007bb6;
+	height: 50px;
+	align-content: center; 
+	border: 3px solid white;
 }
 
 .innerProduct {
-	justify-content: center;
+	/* justify-content: center;
 	margin-left: 30%;
 	height: 75%;
-	margin-top: 2%;
+	margin-top: 2%; */
 }
 
 h1.sep,
@@ -2127,7 +2129,7 @@ aside.blog-sidebar .tag_cloud h4 {
 .screen-couple-right,
 .screen-couple-left {
 	position: relative;
-	max-width: 400px;
+	max-width: 609px;
 	min-width: 280px;
 	overflow: hidden;
 	z-index: 100;
@@ -2467,7 +2469,7 @@ ul.pricing-table a.buy:hover .icon-basket:before {
 
 #testimonials .block-bg {
 	opacity: 0.2;
-	background-image: url(../images/testimonials_bg.jpg);
+	background-image: url(../images/girlaaa.jpg);
 }
 
 @media (max-width: 767px) {
