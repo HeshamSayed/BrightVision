@@ -29,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && !empty($_POST['name']) && !empty($_P
 		$mail->setFrom($_POST['email'], $_POST['email']);
 	
 		//$mail->addAddress('', 'Joe User');     // Add a recipient
-		$mail->addAddress('awadmohamed233@gmail.com');               // Name is optional
+		$mail->addAddress('test@brightvision-tech.com');               // Name is optional
 		//$mail->addReplyTo('info@example.com', 'Information');
 		//$mail->addCC('cc@example.com');
 		//$mail->addBCC('bcc@example.com');
