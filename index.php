@@ -112,7 +112,7 @@
 						<div class="row">
 								<div class="col-md-8 col-sm-12">
 										<img class="logo" src="./images/BV_Logo_02.png" alt="Your Logo" height="100" width="300" />
-										<h1 class="slogan">The Best Start Up For <br> Your Elegant App</h1>
+										<h1 class="slogan">افضل بدايه<br> لتطبيقك </h1>
 										<a class="download-btn-alt ios-btn" href="#">
 											<i class="icon soc-icon-apple"></i>Download for <b>Apple iOS</b>
 										</a>
