@@ -26,7 +26,8 @@
 	<link rel="stylesheet" href="css/icomoon-soc-icons.css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" />
 	<link rel="stylesheet" href="css/style.css" />
-	<!-- <link rel="stylesheet" href="css/style-dark.css" /> -->
+
+	
 
 	<!-- Favicons -->
 	<link rel="icon" href="images/favicon.png">
@@ -77,8 +78,8 @@
 		<!-- NAVIGATION BEGIN -->
 		<nav class="navbar navbar-fixed-top navbar-slide">
 			<div class="container_fluid">
-				<a class="navbar-brand goto" href="index.html#wrap"> <img src="./images/logo_nav.png" alt="Your logo"
-						height="27" width="56" /> </a>
+				<a class="navbar-brand goto" href="index.html#wrap"> <img src="./images/BV_Logo_02.png" alt="Your logo"
+						height="40" width="100" /> </a>
 				<a class="contact-btn icon-envelope" data-toggle="modal" data-target="#modalContact"></a>
 				<button class="navbar-toggle menu-collapse-btn collapsed" data-toggle="collapse"
 					data-target=".navMenuCollapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span
@@ -103,106 +104,118 @@
 
 
 
-		<!-- INTRO BEGIN -->
-		<header id="full-intro" class="intro-block bg-color-main">
-			<div class="ray ray-vertical y-100 x-50 ray-rotate-135 laser-blink hidden-sm hidden-xs"></div>
-			<div class="ray ray-horizontal y-25 x-0 ray-rotate-45 laser-blink hidden-sm hidden-xs"></div>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-sm-12">
-						<h1 class="logo" src="./images/logo.png" alt="Your Logo" height="70" width="144"></h1>
-						<h1 class="slogan">ENGAGE, INTERACT, IMMERSE
-						</h1>
-					</div>
-					<div class="col-md-4 hidden-sm hidden-xs">
-
-					</div>
-				</div>
-			</div>
-			<div class="block-bg" data-stellar-ratio="0.4"></div>
-		</header>
-		<!-- INTRO END -->
-
-
-
-				<!-- FEATURES BEGIN -->
-	<section id="features" class="img-block-3col">
-		<div class="container">
-			<div class="title">
-				<h2>خدماتنا</h2>
+			<!-- INTRO BEGIN -->
+			<header id="full-intro" class="intro-block bg-color-main">
+					<div class="ray ray-vertical y-100 x-50 ray-rotate-135 laser-blink hidden-sm hidden-xs"></div>
+					<div class="ray ray-horizontal y-25 x-0 ray-rotate-45 laser-blink hidden-sm hidden-xs"></div>
+					<div class="container">
+						<div class="row">
+								<div class="col-md-8 col-sm-12">
+										<img class="logo" src="./images/BV_Logo_02.png" alt="Your Logo" height="100" width="300" />
+										<h1 class="slogan">The Best Start Up For <br> Your Elegant App</h1>
+										<a class="download-btn-alt ios-btn" href="#">
+											<i class="icon soc-icon-apple"></i>Download for <b>Apple iOS</b>
+										</a>
+										<a class="download-btn-alt ios-btn" href="#">
+												<i class="icon soc-icon-android"></i>Download for <b>Android</b>
+											</a>
+									</div>
 		
-			</div>
-			<div class="row">
-				<div class="col-sm-4">
-					<ul class="item-list-right item-list-big">
-						<li class="wow fadeInLeft">
-						
+							<div class="col-md-4 hidden-sm hidden-xs">
+								<img class="intro-screen wow bounceInUp" data-wow-delay="0.5s" src="images/handsome-cropped.png" height="773" width="400" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="block-bg" data-stellar-ratio="0.4">
+						<video autoplay loop>
+									<source src="./video/video_bg.mp4" type="video/mp4">
+									<source src="./video/video_bg.ogv" type="video/ogv">
+								Your browser does not support the video tag.
+						</video> 
+					</div>
+				</header>
+				<!-- INTRO END -->
 
-							<img class="icon" src="images/icons/gaming.png" style="display:inline-block;" />
-							<h4>الواقع المعزز</h4>
-							<p>اضافه عناصر ومحتوى رقمى اضافى الى العالم الحقيقى</p>
-						</li>
-						<li class="wow fadeInLeft">
-								<img class="icon" src="images/icons/military.png"  style="display:inline-block;" />
-							<h4>استضافه المواقع والدعم الفنى</h4>
-							<p>نحن نهتم بموقع الويب الخاص بك حتى بعد انهاء العمل مباشرة</p>
-						</li>
-						<li class="wow fadeInLeft">
-							<img class="icon" src="images/icons/vrgears.png" style="display:inline-block;" />
-							<h4>تطوير المواقع الالكترونيه</h4>
-							<p>نحن نجمع بين افضل ممارسات المعرفه الرقميه مع خبرتنا فى تصميم المواقع</p>
 
-						</li>
-						<li class="wow fadeInLeft">
-								<img class="icon" src="images/icons/military.png"  style="display:inline-block;" />
-							<h4>استضافه المواقع والدعم الفنى</h4>
-							<p>نحن نهتم بموقع الويب الخاص بك حتى بعد انهاء العمل مباشرة</p>
-						</li>
-					</ul>
+
+	<!-- FEATURES BEGIN -->
+	<section id="features" class="img-block-3col">
+			<div class="container">
+				<div class="title">
+					<h2>خدماتنا</h2>
+
 				</div>
-				<div class="col-sm-4 col-sm-push-4">
-					<ul class="item-list-left item-list-big">
-						<li class="wow fadeInRight">
-								
+				<div class="row">
+					<div class="col-sm-4">
+						<ul class="item-list-right item-list-big">
+							<li class="wow fadeInLeft">
 
 
-							<img class="icon" src="images/icons/healthcare.png"  style="display:inline-block;" />
-							<h4>الواقع الافتراضى</h4>
-							<p>تجسيد بيئه افتراضيه بالكامل مشابهة للحقيقه</p>
-						</li>
-						<li class="wow fadeInRight">
-								
+								<img class="icon" src="images/icons/gaming.png" style="display:inline-block;" />
+								<h4>الواقع المعزز</h4>
+								<p>اضافه عناصر ومحتوى رقمى اضافى الى العالم الحقيقى</p>
+							</li>
+							<li class="wow fadeInLeft">
+								<img class="icon" src="images/icons/military.png" style="display:inline-block;" />
+								<h4>استضافه المواقع والدعم الفنى</h4>
+								<p>نحن نهتم بموقع الويب الخاص بك حتى بعد انهاء العمل مباشرة</p>
+							</li>
+							<li class="wow fadeInLeft">
+								<img class="icon" src="images/icons/vrgears.png" style="display:inline-block;" />
+								<h4>تطوير المواقع الالكترونيه</h4>
+								<p>نحن نجمع بين افضل ممارسات المعرفه الرقميه مع خبرتنا المواقع</p>
 
-
-								<img class="icon" src="images/icons/healthcare.png"  style="display:inline-block;" />
+							</li>
+							<li class="wow fadeInLeft">
+								<img class="icon" src="images/icons/military.png" style="display:inline-block;" />
+								<h4>استضافه المواقع والدعم الفنى</h4>
+								<p>نحن نهتم بموقع الويب الخاص بك حتى بعد انهاء العمل مباشرة</p>
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-sm-push-4">
+						<ul class="item-list-left item-list-big">
+							<li class="wow fadeInRight">
+								<img class="icon icon2" src="images/icons/healthcare.png"
+									style="display:inline-block;" />
 								<h4>الواقع الافتراضى</h4>
 								<p>تجسيد بيئه افتراضيه بالكامل مشابهة للحقيقه</p>
 							</li>
-						<li class="wow fadeInRight">
-						
-							<img class="icon" src="images/icons/reviewed-and-rated.png" style="display:inline-block;" />
+							<li class="wow fadeInRight">
+
+
+
+								<img class="icon icon2" src="images/icons/healthcare.png"
+									style="display:inline-block;" />
+								<h4>الواقع الافتراضى</h4>
+								<p>تجسيد بيئه افتراضيه بالكامل مشابهة للحقيقه</p>
+							</li>
+							<li class="wow fadeInRight">
+
+								<img class="icon icon2" src="images/icons/reviewed-and-rated.png"
+									style="display:inline-block;" />
 								<h4>تصميم المواقع الالكترونيه</h4>
 								<p>ان التصميم الجيد هو اساس عمل اى موقع انترنت ﻵنه يشكل عامل الجذب</p>
-						</li>
-						<li class="wow fadeInRight">
-						
-							<img class="icon" src="images/icons/education.png"  style="display:inline-block;" />
+							</li>
+							<li class="wow fadeInRight">
+								<img class="icon icon2" src="images/icons/education.png"
+									style="display:inline-block;" />
 								<h4>التسويق الالكترونى</h4>
 								<p>التسويق الالكترونى هو تسويق خدمه او منتج او موقع عبر الانترنت</p>
-						</li>
-					</ul>
-				</div>
-				<div class="col-sm-4 col-sm-pull-4">
-					<div class="animation-box wow bounceIn">
-					 	<img class="highlight-left wow" src="images/light.png" height="192" width="48" alt="" />
-						<img class="highlight-right wow" src="images/light.png" height="192" width="48" alt="" />
-						<img class="screen" src="images/imgvr.png" alt="" height="581" width="300" />
+							</li>
+						</ul>
+					</div>
+					<div class="col-sm-4 col-sm-pull-4">
+						<div class="animation-box wow bounceIn">
+							<img class="highlight-left wow" src="images/light.png" height="192" width="48" alt="" />
+							<img class="highlight-right wow" src="images/light.png" height="192" width="48" alt="" />
+							<img class="screen" src="images/handsome-cropped.png" alt="" height="1400" width="450" />
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!-- FEATURES END --> 
+		</section>
+		<!-- FEATURES END -->
 
 
 
@@ -259,7 +272,7 @@
 								</div>
 							</li>
 							<li class="wow fadeInUp">
-								<h3><a href="#"><img src="./images/sitelogo.png" alt="Your logo"
+								<h3><a href="#"><img src="./images/BV_Logo_02.png" alt="Your logo"
 									height="100" width="230" /></a></h3>
 							</li>
 						</ul>
@@ -274,37 +287,29 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="title">
-							<h2>خطواتنا نحو المستقبل</h2>
+							<h2 style="text-align: right;" class="title-future">خطواتنا نحو المستقبل</h2>
 						</div>
 
 						<ul class="item-list-left">
 							<li>
-								<i class="icon icon-picture color"></i>
 								<h4 class="color">التعليم</h4>
 								<p>يعيش الطالب المنهج التعليمي من خلال بيئة افتراضية بالكامل مشابهة للحقيقة، قائمة على الاكتشاف والتفاعل في جو من المغامرة والترفيه، مما يجعل المعلومة أكثر بساطة وأكثر ثباتا.</p>
 							</li>
 							<li>
-								<i class="icon icon-equalizer color"></i>
 								<h4 class="color">التدريب</h4>
 								<p>صناعة بيئة متكاملة وآمنة للموظفين الجدد للحصول على تدريب عملي بدرجة عالية من الواقعية لاكتساب الخبرات اللازمة قبل البدء في العمل.</p>
 							</li>
 							<li>
-								<i class="icon icon-bar-chart color"></i>
 								<h4 class="color">التسويق</h4>
 								<p>نجذب جمهورك لعلامتك التجارية من خلال تجربة تفاعلية من الواقع الافتراضي، يستمتع المعزز بها ويستفيد منها الفئة المستهدفة.</p>
 							</li>
 							<li>
-								<i class="icon icon-equalizer color"></i>
 								<h4 class="color">الترفيه</h4>
 								<p>تقديم الترفيه بمحتوى فريد من خلال نقل الجمهور إلى تجربة الألعاب الممتعة المليئة بالتجارب والمغامرات بأحدث التقنيات للواقعين الافتراضي
 										بدلا من العروض الثابتة المملة (AR) والمعزز  (VR).</p>
 							</li>
 						</ul>
 					</div>
-
-
-
-
 
 
 					<div class="col-md-5 col-md-offset-1 col-sm-6">
@@ -329,9 +334,9 @@
 		<section id="benefits2" class="img-block-2col bg-color2">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6 col-sm-push-6">
+					<div style="text-align: right" class="col-sm-6 col-sm-push-6">
 						<div class="title">
-							<h2>القلب</h2>
+							<h2 style="text-align: right">القلب</h2>
 						</div>
 						<p>أن تعرض الواقع في شكل افتراضي، وأن تستطيع أن تشعر بالبيئة الافتراضية وكأنك في البيئة الحقيقية، هذا يعني أننا نتحدث عن عالم وتقنيات “الواقع الافتراضي Virtual Reality”. معلوم أن الإنسان يتعرف على البيئة المحيطة به من خلال حواسه الخمس، والتي تتمثل في (النظر، والسمع، واللمس، والشم، والتذوق). وبحسب دراسة نشرت عام 1996م فإن المعلومات التي تمر للدماغ البشري “للبالغين” تتوزع على الحواس الخمس كالتالي: البصر 70%، والسمع 20%، واللمس 4%، والشم 5%، والتذوق 1%.</p>
 						<p>وكون أن إنشاء الواقع الافتراضي هو في الحقيقة إنشاء لنظام محوسب تستخدم فيه تقنيات خاصة، يتم من خلالها تكوين بيئة ثلاثية الأبعاد قابلة للتفاعل مع المستخدم في الزمن الحقيقي، فإن توفر الأجهزة والبرامج (مكونات مادية ومكونات برمجية) يعتبر شرط نجاح ذلك الواقع المنشود إفتراضياً، ليحاكي البيئة الحقيقية (الفيزيائية). ومن كل ذلك يمكن تعريف الواقع الافتراضي على أنه “نظام محوسب، يوفر للإنسان بيئة افتراضية، يمكنه الاستغراق فيها والتفاعل معها في الوقت الحقيقي”.</p>
@@ -407,43 +412,37 @@
 						<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
 						<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
 						<div class="name">محمد العربي سالم</div>
-						<br>
-						<div class="ocupation">araby@gmail.com</div>
+						<div class="ocupation">vr developer</div>
 					</div>
 					<div class="item container">
-							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
-							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
+							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي  </div>
+							<img class="photo" src="images/saleh.jpeg" alt="customer"  height="150" width="150"/>
+							<div class="name">صالح حشاد</div>
+							<div class="ocupation">vr developer</div>
+						</div>
+						<div class="item container">
+							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي</div>
+							<img class="photo" src="images/" alt="customer"  height="150" width="150"/>
 							<div class="name">محمد العربي سالم</div>
-							<br>
-							<div class="ocupation">araby@gmail.com</div>
+							<div class="ocupation">vr developer</div>
+						</div>
+						<div class="item container">
+							<div class="talk"> </div>
+							<img class="photo" src="images/marawan.jpg" alt="customer"  height="150" width="150"/>
+							<div class="name">مروان اسامه</div>
+							<div class="ocupation">vr developer</div>
+						</div>
+						<div class="item container">
+							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي  </div>
+							<img class="photo" src="images/mostafa.jpg" alt="customer"  height="150" width="150"/>
+							<div class="name">مصطفي محمود</div>
+							<div class="ocupation">vr developer</div>
 						</div>
 						<div class="item container">
 							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
-							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
+							<img class="photo" src="images/" alt="customer"  height="150" width="150"/>
 							<div class="name">محمد العربي سالم</div>
-							<br>
-							<div class="ocupation">araby@gmail.com</div>
-						</div>
-						<div class="item container">
-							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
-							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
-							<div class="name">محمد العربي سالم</div>
-							<br>
-							<div class="ocupation">araby@gmail.com</div>
-						</div>
-						<div class="item container">
-							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
-							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
-							<div class="name">محمد العربي سالم</div>
-							<br>
-							<div class="ocupation">araby@gmail.com</div>
-						</div>
-						<div class="item container">
-							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
-							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
-							<div class="name">محمد العربي سالم</div>
-							<br>
-							<div class="ocupation">araby@gmail.com</div>
+							<div class="ocupation">vr developer</div>
 						</div>
 				</div>
 			</div>
@@ -468,7 +467,7 @@
 		<!-- FOOTER BEGIN -->
 		<footer id="footer">
 			<div class="container">
-				<a href="index.html#wrap" class="logo goto"> <img src="./images/logo_small.png" alt="Your Logo"
+				<a href="index.html#wrap" class="logo goto"> <img height="100" width="250" src="./images/BV_Logo_02.png" alt="Your Logo"
 						height="35" width="72" /> </a>
 				<p class="copyright">&copy; BrightVision 2019 <br>
 					Designed by <a href="#" target="_blank">BrightVision</a></p>
@@ -663,9 +662,6 @@
 
 
 	</script>
-
-
-
 
 	<!--[if lte IE 9]>
 	<script src="scripts/respond.min.js"></script>
