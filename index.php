@@ -30,6 +30,34 @@
 	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	<style>
+		
+		.mfp-fade.mfp-bg {
+			opacity: 0;
+			-webkit-transition: all 0.15s ease-out; 
+			-moz-transition: all 0.15s ease-out; 
+			transition: all 0.15s ease-out;
+		}
+		.mfp-fade.mfp-bg.mfp-ready {
+			opacity: 0.8;
+		}
+		.mfp-fade.mfp-bg.mfp-removing {
+			opacity: 0;
+		}
+
+		.mfp-fade.mfp-wrap .mfp-content {
+			opacity: 0;
+			-webkit-transition: all 0.15s ease-out; 
+			-moz-transition: all 0.15s ease-out; 
+			transition: all 0.15s ease-out;
+		}
+		.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+			opacity: 1;
+		}
+		.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+			opacity: 0;
+		}
+	</style>
 </head>
 
 <body data-spy="scroll" data-target=".navMenuCollapse">
@@ -310,35 +338,26 @@
 			<div class="container-fluid wow fadeIn">
 				<h2>Screenshots</h2>
 				<div id="screenshots-slider" class="owl-carousel">
-					<a class="item" href="./images/screen.jpg" title="App Screen 1">
-						<!--<img src="images/intro_screen.png" alt="screen1" width="250" height="444" />-->
-						<!--<video class="item" width="400" controls poster="./images/intro_screen.png">
-							<source src="./video/video_bg.mp4" type="video/mp4">
-							<source src="./video/video_bg.ogv" type="video/ogv">
-							Your browser does not support HTML5 video.
-						</video>-->
-					</a>
-					<a class="item" href="./images/intro_screen.png" title="App Screen 2">
+
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
 						<img src="images/intro_screen.png" alt="screen1" width="250" height="444" />
 					</a>
-					<a class="item" href="./images/intro_screen.png" title="App Screen 3">
-						<img src="images/intro_screen.png"
-							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/intro_screen.png" title="App Screen 4">
-						<img src="images/intro_screen.png"
-							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/intro_screen.png" title="App Screen 5">
-						<img src="images/intro_screen.png"
-							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/intro_screen.png" title="App Screen 6">
-						<img src="images/intro_screen.png"
-							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/intro_screen.png" title="App Screen 7">
-						<img src="images/intro_screen.png"
-							alt="screen1" width="250" height="444" /></a>
-					<a class="item" href="./images/intro_screen.png" title="App Screen 8">
-						<img src="images/intro_screen.png"
-							alt="screen1" width="250" height="444" /></a>
+
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+						<img src="images/intro_screen.png" alt="screen1" width="250" height="444" />
+					</a>
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+						<img src="images/intro_screen.png" alt="screen1" width="250" height="444" />
+					</a>
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+						<img src="images/intro_screen.png" alt="screen1" width="250" height="444" />
+					</a>
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+						<img src="images/intro_screen.png" alt="screen1" width="250" height="444" />
+					</a>
+					<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+						<img src="images/intro_screen.png" alt="screen1" width="250" height="444" />
+					</a>
 				</div>
 			</div>
 		</section>
@@ -530,6 +549,7 @@
 
 	<!-- MODALS END-->
 
+	
 
 	<!-- JavaScript -->
 	<script src="scripts/jquery-1.8.2.min.js"></script>
@@ -547,6 +567,20 @@
 	<script src="scripts/custom.js"></script>
 
 	<script>
+		//start of popup video
+		$(document).ready(function() {
+			$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
+				disableOn: 700,
+				type: 'iframe',
+				mainClass: 'mfp-fade',
+				removalDelay: 160,
+				preloader: false,
+
+				fixedContentPos: false
+			});
+		});
+		//end of popup video
+
 		$("#contact_form").submit(function (e) {
 			e.preventDefault(); // avoid to execute the actual submit of the form.
 			if ($(this).valid()) {
