@@ -580,7 +580,12 @@
 		//start of popup video
 		$(document).ready(function() {
 			$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-				disableOn: 700,
+				disableOn: function() {
+					if( $(window).width() < 600 ) {
+						return false;
+					}
+					return true;
+					},
 				type: 'iframe',
 				mainClass: 'mfp-fade',
 				removalDelay: 160,
