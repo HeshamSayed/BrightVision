@@ -14,8 +14,8 @@
 -----------------------------------------------------------------------------------------*/
 
 body {
-	font-family: 'Open Sans', sans-serif;
-    /*font-family: 'Swissra Font';*/
+	/*font-family: 'Open Sans', sans-serif;*/
+  font-family: 'Swissra Font';
 	font-size: 16px;
 	font-weight: 300;
 	color: #777;
@@ -1416,6 +1416,7 @@ button {
 
 #contact_form, #contact_form1 {
 	border-top: 1px solid #eee;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #contact_form .form-group, #contact_form1 .form-group {

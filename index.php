@@ -18,6 +18,8 @@
 <![endif]-->
 
 	<!-- CSS -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/animate.css" />
 	<link rel="stylesheet" href="css/simple-line-icons.css" />
@@ -207,9 +209,12 @@
 		<section id="innovations" class="bg-color2">
 			<div class="container">
 				<div class="title">
-					<h2>Touch the Innovations</h2>
-					<p>In our work we try to use only the most modern, convenient and interesting solutions.<br>We want
-						the template you downloaded look unique and new for such a long time as it is possible. </p>
+					<h2>Bright vision ما تقدمه </h2>
+					<p>
+							توفر الرؤيه الساطعه حلولًا تفاعلية، وتستخدم أحدث التقنيات كالواقع الافتراضي والواقع المعزز و غيرها.
+						<br>
+						كما تعمل على تطوير طرق التواصل ونقل المعرفة في كافة القطاعات والصناعات	
+					</p>
 				</div>
 				<img class="screen wow bounceInUp" src="images/gear-vr_phoneplus_new_vr_img.png" height="387"
 					width="800" alt="" />
@@ -229,31 +234,30 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="title">
-							<h2>Step Into The Future</h2>
+							<h2>خطواتنا نحو المستقبل</h2>
 						</div>
 
 						<ul class="item-list-left">
 							<li>
 								<i class="icon icon-picture color"></i>
-								<h4 class="color">Education Experiences</h4>
-								<p>Unleash curiosity, simplify complex topics, increase attention span & retention.</p>
+								<h4 class="color">التعليم</h4>
+								<p>يعيش الطالب المنهج التعليمي من خلال بيئة افتراضية بالكامل مشابهة للحقيقة، قائمة على الاكتشاف والتفاعل في جو من المغامرة والترفيه، مما يجعل المعلومة أكثر بساطة وأكثر ثباتا.</p>
 							</li>
 							<li>
 								<i class="icon icon-equalizer color"></i>
-								<h4 class="color">Training Experiences</h4>
-								<p>Combining hands on experiences and risk free environments for various industries.</p>
+								<h4 class="color">التدريب</h4>
+								<p>صناعة بيئة متكاملة وآمنة للموظفين الجدد للحصول على تدريب عملي بدرجة عالية من الواقعية لاكتساب الخبرات اللازمة قبل البدء في العمل.</p>
 							</li>
 							<li>
 								<i class="icon icon-bar-chart color"></i>
-								<h4 class="color">Marketing Experiences</h4>
-								<p>Engage your target audience in an interactive, entertaining, educating and memorable
-									experiences</p>
+								<h4 class="color">التسويق</h4>
+								<p>نجذب جمهورك لعلامتك التجارية من خلال تجربة تفاعلية من الواقع الافتراضي، يستمتع المعزز بها ويستفيد منها الفئة المستهدفة.</p>
 							</li>
 							<li>
 								<i class="icon icon-equalizer color"></i>
-								<h4 class="color">Entertainment Experiences</h4>
-								<p>Attract your target audience to engage with interactive gaming using the latest
-									technologies including VR, AR and interactive attraction domes</p>
+								<h4 class="color">الترفيه</h4>
+								<p>تقديم الترفيه بمحتوى فريد من خلال نقل الجمهور إلى تجربة الألعاب الممتعة المليئة بالتجارب والمغامرات بأحدث التقنيات للواقعين الافتراضي
+										بدلا من العروض الثابتة المملة (AR) والمعزز  (VR).</p>
 							</li>
 						</ul>
 					</div>
@@ -287,19 +291,10 @@
 				<div class="row">
 					<div class="col-sm-6 col-sm-push-6">
 						<div class="title">
-							<h2>The Heart</h2>
+							<h2>القلب</h2>
 						</div>
-						<p>So, what is the secret of successful template design? First of all, it is its friendliness –
-							both for the template’s owner and for his or her future targeted audience. UX and UI are not
-							just empty phrases for us. It is very important for us that the user could understand
-							correctly the message your project’s trying to say to him or her. But, correct giving of the
-							information is just a half of success.</p>
-						<p>Emotions that causes your project in visitor are no less important ticket to success. Modern
-							solutions, interesting elements, unique approach to details make this template recognizable
-							and interesting. You project will not look like a template bought in a store and adapted
-							within couple of hours. Oh, no! This is not your case. You obtain qualitative, fascinating
-							and juicy final product that is modern and actual. Qualitative and flexible code lays in
-							base of this great product.</p>
+						<p>أن تعرض الواقع في شكل افتراضي، وأن تستطيع أن تشعر بالبيئة الافتراضية وكأنك في البيئة الحقيقية، هذا يعني أننا نتحدث عن عالم وتقنيات “الواقع الافتراضي Virtual Reality”. معلوم أن الإنسان يتعرف على البيئة المحيطة به من خلال حواسه الخمس، والتي تتمثل في (النظر، والسمع، واللمس، والشم، والتذوق). وبحسب دراسة نشرت عام 1996م فإن المعلومات التي تمر للدماغ البشري “للبالغين” تتوزع على الحواس الخمس كالتالي: البصر 70%، والسمع 20%، واللمس 4%، والشم 5%، والتذوق 1%.</p>
+						<p>وكون أن إنشاء الواقع الافتراضي هو في الحقيقة إنشاء لنظام محوسب تستخدم فيه تقنيات خاصة، يتم من خلالها تكوين بيئة ثلاثية الأبعاد قابلة للتفاعل مع المستخدم في الزمن الحقيقي، فإن توفر الأجهزة والبرامج (مكونات مادية ومكونات برمجية) يعتبر شرط نجاح ذلك الواقع المنشود إفتراضياً، ليحاكي البيئة الحقيقية (الفيزيائية). ومن كل ذلك يمكن تعريف الواقع الافتراضي على أنه “نظام محوسب، يوفر للإنسان بيئة افتراضية، يمكنه الاستغراق فيها والتفاعل معها في الوقت الحقيقي”.</p>
 					</div>
 					<div class="col-sm-6 col-sm-pull-6">
 						<div class="screen-couple-left wow fadeInLeftBig">
@@ -319,8 +314,7 @@
 		<section id="video">
 			<div class="container">
 				<div class="title">
-					<h2>Iframe Video</h2>
-					<p>In our work we try to use only the most modern, convenient and interesting solutions.</p>
+					<h2>مقدمه عن عملنا</h2>
 				</div>
 				<div class="video-container">
 				<video width="1000" height="540" controls>
@@ -367,37 +361,50 @@
 		<!-- TESTIMONIALS BEGIN -->
 		<section id="testimonials" class="bg-color3">
 			<div class="container-fluid">
-				<h2>Why Do People Love Us</h2>
+				<h2>فريقنا</h2>
 				<div id="testimonials-slider" class="owl-carousel">
 					<div class="item container">
-						<div class="talk">This is a great product. It reveals an individual approach to each customer. I
-							liked the level of the provided service.</div>
-						<img class="photo" src="images/customer_photo.jpg" alt="customer" />
-						<div class="name">John Doe</div>
-						<div class="ocupation">First customer</div>
+						<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
+						<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
+						<div class="name">محمد العربي سالم</div>
+						<br>
+						<div class="ocupation">araby@gmail.com</div>
 					</div>
 					<div class="item container">
-						<div class="talk">I always thought that people used to pay much for quality. But these guys
-							changed my opinion. The quality exceeds the price many times. I recommend it to everybody.
+							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
+							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
+							<div class="name">محمد العربي سالم</div>
+							<br>
+							<div class="ocupation">araby@gmail.com</div>
 						</div>
-						<img class="photo" src="images/customer_photo.jpg" alt="customer" />
-						<div class="name">John Doe</div>
-						<div class="ocupation">First customer</div>
-					</div>
-					<div class="item container">
-						<div class="talk">My colleague recommended them to me. I hesitated for a long time, but than I
-							tried and understood what I had paid off for.</div>
-						<img class="photo" src="images/customer_photo.jpg" alt="customer" />
-						<div class="name">John Doe</div>
-						<div class="ocupation">First customer</div>
-					</div>
-					<div class="item container">
-						<div class="talk">It’s just five stars. I will certainly come back and bring my friends with me.
+						<div class="item container">
+							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
+							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
+							<div class="name">محمد العربي سالم</div>
+							<br>
+							<div class="ocupation">araby@gmail.com</div>
 						</div>
-						<img class="photo" src="images/customer_photo.jpg" alt="customer" />
-						<div class="name">John Doe</div>
-						<div class="ocupation">First customer</div>
-					</div>
+						<div class="item container">
+							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
+							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
+							<div class="name">محمد العربي سالم</div>
+							<br>
+							<div class="ocupation">araby@gmail.com</div>
+						</div>
+						<div class="item container">
+							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
+							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
+							<div class="name">محمد العربي سالم</div>
+							<br>
+							<div class="ocupation">araby@gmail.com</div>
+						</div>
+						<div class="item container">
+							<div class="talk">مطور ومصمم تقنيه الواقع الافتراضي وحاصل على جائزه من معهد تكنولوجيا المعلومات </div>
+							<img class="photo" src="images/araby.jpg" alt="customer"  height="170" width="170"/>
+							<div class="name">محمد العربي سالم</div>
+							<br>
+							<div class="ocupation">araby@gmail.com</div>
+						</div>
 				</div>
 			</div>
 			<div class="block-bg"></div>
@@ -410,7 +417,7 @@
 			<div class="container-fluid">
 				<div class="title">
 					<h2>اخبار الشركه</h2>
-					<p style="font-size: 1.7em;">المدوام هي تلك اللعبة التراثية الشهيرة والممتعة. اسم أصيل نابع من ثقافتنا، يعبر عن هويتنا، ويدعم رسالتنا</p>
+					<p style="font-size: 1.7em;">الرؤيه الساطعه هي تلك اللعبة التراثية الشهيرة والممتعة. اسم أصيل نابع من ثقافتنا، يعبر عن هويتنا، ويدعم رسالتنا</p>
 				</div>
 				<ul class="news-list">
 					<li class="wow fadeInUp">
@@ -468,6 +475,9 @@
 				<ul class="soc-list wow flipInX">
 					<li><a href="#"><i class="icon soc-icon-twitter"></i></a></li>
 					<li><a href="#"><i class="icon soc-icon-facebook"></i></a></li>
+					<li><a href="#"><i class="icon soc-icon-linkedin"></i></a></li>
+					<li><a href="#"><i class="icon soc-icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon fab fa-snapchat"></i></a></li>
 				</ul>
 			</div>
 		</footer>
@@ -493,17 +503,17 @@
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h3 class="modal-title">Contact</h3>
+				<h3 class="modal-title">تواصل معنا</h3>
 				<form action="./contact.php" role="form" id="contact_form">
 					<div class="form-group">
-						<input type="text" class="form-control" id="contact_name" placeholder="Full name" name="name">
+						<input type="text" class="form-control" id="contact_name" placeholder="الاسم" name="name">
 					</div>
 					<div class="form-group">
-						<input type="email" class="form-control" id="contact_email" placeholder="Email Address"
+						<input type="email" class="form-control" id="contact_email" placeholder="البريد الالكترونى"
 							name="email">
 					</div>
 					<div class="form-group">
-						<textarea class="form-control" rows="3" placeholder="Your message or question"
+						<textarea class="form-control" rows="3" placeholder="اترك رسالتك هنا"
 							id="contact_message" name="message"></textarea>
 					</div>
 					<button type="submit" id="contact_submit" data-loading-text="&bull;&bull;&bull;"> <i
@@ -518,17 +528,17 @@
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h3 class="modal-title">Contact</h3>
+					<h3 class="modal-title">اتصل بنا</h3>
 					<form action="./contact1.php" role="form" id="contact_form1">
 						<div class="form-group">
-							<input type="text" class="form-control" id="contact_name" placeholder="Full name" name="name">
+							<input type="text" class="form-control" id="contact_name" placeholder="الاسم" name="name">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control" id="contact_email" placeholder="Email Address"
+							<input type="email" class="form-control" id="contact_email" placeholder="البريدالالكترونى"
 								name="email">
 						</div>
 						<div class="form-group">
-							<textarea class="form-control" rows="3" placeholder="Your message or question"
+							<textarea class="form-control" rows="3" placeholder="اترك رسالتك هنا"
 								id="contact_message" name="message"></textarea>
 						</div>
 						<button type="submit" id="contact_submit1" data-loading-text="&bull;&bull;&bull;"> <i
@@ -596,7 +606,7 @@
 
 						//Use modal popups to display messages
 						$('#modalMessage .modal-title').html(
-							'<i class="icon icon-envelope-open"></i>Well done!<br>Your message has been successfully sent!'
+							'<i class="icon icon-envelope-open"></i>رائع<br>تم ارسال رسالتك بنجاح'
 							);
 						$('#modalMessage').modal('show');
 					},
@@ -606,7 +616,7 @@
 
 						//Use modal popups to display messages
 						$('#modalMessage .modal-title').html(
-							'<i class="icon icon-ban"></i>Oops!<br>Something went wrong!');
+							'<i class="icon icon-ban"></i>للاسف<br>حدث خطا ما');
 						$('#modalMessage').modal('show');
 					}
 				});
@@ -631,7 +641,7 @@
 
 						//Use modal popups to display messages
 						$('#modalMessage .modal-title').html(
-							'<i class="icon icon-envelope-open"></i>Well done!<br>Your message has been successfully sent!'
+							'<i class="icon icon-envelope-open"></i>رائع<br>تم ارسال رسالتك بنجاح'
 							);
 						$('#modalMessage').modal('show');
 					},
@@ -641,7 +651,7 @@
 
 						//Use modal popups to display messages
 						$('#modalMessage .modal-title').html(
-							'<i class="icon icon-ban"></i>Oops!<br>Something went wrong!');
+							'<i class="icon icon-ban"></i>للاسف<br>حدث خطا ما ');
 						$('#modalMessage').modal('show');
 					}
 				});
