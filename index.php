@@ -6,7 +6,7 @@
 
 	<!-- Html Page Specific -->
 	<meta charset="utf-8">
-	<title>RAYzz - App Landing Page</title>
+	<title>RAY - App Landing Page</title>
 	<meta name="description" content="RAY - App Landing Page">
 	<meta name="author" content="Multifour | multifour.com">
 
