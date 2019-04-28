@@ -6,7 +6,7 @@
 
 	<!-- Html Page Specific -->
 	<meta charset="utf-8">
-	<title>RAY - App Landing Page</title>
+	<title>RAYzz - App Landing Page</title>
 	<meta name="description" content="RAY - App Landing Page">
 	<meta name="author" content="Multifour | multifour.com">
 
@@ -580,12 +580,7 @@
 		//start of popup video
 		$(document).ready(function() {
 			$('.popup-youtube, .popup-vimeo, .popup-gmaps').magnificPopup({
-				disableOn: function() {
-					if( $(window).width() < 600 ) {
-						return false;
-					}
-					return true;
-					},
+				disableOn: 0,
 				type: 'iframe',
 				mainClass: 'mfp-fade',
 				removalDelay: 160,
