@@ -6,8 +6,8 @@
 
 	<!-- Html Page Specific -->
 	<meta charset="utf-8">
-	<title>RAY - App Landing Page</title>
-	<meta name="description" content="RAY - App Landing Page">
+	<title>Bright Vision</title>
+	<meta name="description" content="Bright vision website">
 	<meta name="author" content="Multifour | multifour.com">
 
 	<!-- Mobile Specific -->
@@ -26,6 +26,7 @@
 	<link rel="stylesheet" href="css/icomoon-soc-icons.css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" />
 	<link rel="stylesheet" href="css/style.css" />
+	<!-- <link rel="stylesheet" href="css/style-dark.css" /> -->
 
 	<!-- Favicons -->
 	<link rel="icon" href="images/favicon.png">
@@ -58,12 +59,12 @@
 					<ul class="nav">
 						
 				
-						<li><a href="#news">الاخبار</a></li>
 						<li><a style="cursor: pointer;" data-toggle="modal" data-target="#modalContact1">التدريب والتوظيف</a></li>
 						<li><a style="cursor: pointer;" data-toggle="modal" data-target="#modalContact">اتصل بنا</a></li>
 						<li><a href="#testimonials">فريق العمل</a></li>
 						<li><a href="#screenshots">اعمالنا</a></li>
 						<li><a href="#benefits1">القسم الفنى</a></li>
+						<li><a href="#news">عن الشركه </a></li>
 						<li><a href="#features">القسم التقنى</a></li>
 						<li><a href="#full-intro">الرئيسيه</a></li>
 					</ul>
@@ -198,6 +199,45 @@
 		</section>
 		<!-- FEATURES END -->
 
+
+			<!-- NEWS BEGIN -->
+			<section id="news">
+					<div class="container-fluid">
+						<div class="title">
+							<h2>عن الشركه</h2>
+							<p>الرؤيه الساطعه هي تلك اللعبة التراثية الشهيرة والممتعة. اسم أصيل نابع من ثقافتنا، يعبر عن هويتنا، ويدعم رسالتنا</p>
+						</div>
+						<ul class="news-list">
+							<li class="wow fadeInUp">
+								<h3><a href="#">رؤيتنا</a></h3>
+								<div class="news-info">			
+									<p>
+										.نؤمن بأن لا مستحيل أمام الإبداع .. فخيال الأمس نجعله واقعا اليوم
+									</p>			
+								</div>
+							</li>
+							<li class="wow fadeInUp">
+								<h3><a href="#">هدفنا</a></h3>
+								<div class="news-info">
+									<p>
+											.أن نكون نافذتك الأولى لتحقيق أحلامك بحلول متكاملة ورؤية مستقبلية واضحة  للتطوير المستمر في مختلف المجالات
+									</p>
+								</div>
+							</li>
+							<li class="wow fadeInUp">
+								<h3><a href="#">الشعار</a></h3>
+								<div class="news-info">
+									<p>هويتنا المرئية تمثل مزيجاً مثالياً من الابتكار، التطوير، والاتصال اللامحدود</p>
+								</div>
+							</li>
+							<li class="wow fadeInUp">
+								<h3><a href="#"><img src="./images/sitelogo.png" alt="Your logo"
+									height="100" width="230" /></a></h3>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<!-- NEWS END -->
 
 
 		<!-- BENEFITS1 BEGIN -->
@@ -393,45 +433,6 @@
 		<!-- TESTIMONIALS END -->
 
 
-		<!-- NEWS BEGIN -->
-		<section id="news">
-			<div class="container-fluid">
-				<div class="title">
-					<h2>اخبار الشركه</h2>
-					<p style="font-size: 1.7em;">الرؤيه الساطعه هي تلك اللعبة التراثية الشهيرة والممتعة. اسم أصيل نابع من ثقافتنا، يعبر عن هويتنا، ويدعم رسالتنا</p>
-				</div>
-				<ul class="news-list">
-					<li class="wow fadeInUp">
-						<h3><a href="#">رؤيتنا</a></h3>
-						<div class="news-info">			
-							<p>
-								.نؤمن بأن لا مستحيل أمام الإبداع .. فخيال الأمس نجعله واقعا اليوم
-							</p>			
-						</div>
-					</li>
-					<li class="wow fadeInUp">
-						<h3><a href="#">هدفنا</a></h3>
-						<div class="news-info">
-							<p>
-									.أن نكون نافذتك الأولى لتحقيق أحلامك بحلول متكاملة ورؤية مستقبلية واضحة  للتطوير المستمر في مختلف المجالات
-							</p>
-						</div>
-					</li>
-					<li class="wow fadeInUp">
-						<h3><a href="#">الشعار</a></h3>
-						<div class="news-info">
-							<p>هويتنا المرئية تمثل مزيجاً مثالياً من الابتكار، التطوير، والاتصال اللامحدود</p>
-						</div>
-					</li>
-					<li class="wow fadeInUp">
-						<h3><a href="#"><img src="./images/sitelogo.png" alt="Your logo"
-							height="100" width="230" /></a></h3>
-					</li>
-				</ul>
-			</div>
-		</section>
-		<!-- NEWS END -->
-
 		<!-- DOWNLOAD BEGIN -->
 		<section id="download" class="bg-color-main">
 			<div class="container-fluid wow fadeInDown">
@@ -509,7 +510,7 @@
 			<div class="modal-dialog">
 				<div class="modal-content">
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-					<h3 class="modal-title">اتصل بنا</h3>
+					<h3 class="modal-title">التدريب والتوظيف</h3>
 					<form action="./contact1.php" role="form" id="contact_form1">
 						<div class="form-group">
 							<input type="text" class="form-control" id="contact_name" placeholder="الاسم" name="name">
